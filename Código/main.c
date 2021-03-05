@@ -31,7 +31,7 @@ int main(){
 	}
 
 	int numeros[acertos];
-    k = 0;
+   	k = 0;
 
 	for(i=0;i<20;i++){
 		for(j=0;j<20;j++){
@@ -43,7 +43,7 @@ int main(){
 
 
 	printf("%d acertos\n",acertos);
-    printf("Numeros acertados: ");
+    	printf("Numeros acertados: ");
 	for(i=0;i<acertos;i++){
 		printf("%d ",numeros[i]);
 	}
