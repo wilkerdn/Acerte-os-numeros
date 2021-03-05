@@ -1,2 +1,2 @@
-# Acerte os numeros
+# Acerte os números
  Acerte os números sorteados
