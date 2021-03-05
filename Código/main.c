@@ -15,6 +15,7 @@ int main(){
 	for(i=0;i<20;i++){
 		sorteio[i] = rand()%100;
 	}
+
 	for(i=0;i<20;i++){
 		printf("%d ",sorteio[i]);
 	}
@@ -38,7 +39,7 @@ int main(){
 				numeros[k++]=sorteio[i];
 			}
 		}
-		}
+	}
 
 
 	printf("%d acertos\n",acertos);
@@ -47,6 +48,6 @@ int main(){
 		printf("%d ",numeros[i]);
 	}
 
-		free(escolha);
-		return 0;
+	free(escolha);
+	return 0;
 }
